@@ -1,0 +1,8 @@
+include "lsvn.external.lovestory.std"
+
+call "title"
+@start
+bg "#ffbbcc" {continue=true}
+"Inugami" "Helo Human."
+
+run love.event.quit
